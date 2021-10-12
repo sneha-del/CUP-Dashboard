@@ -37,21 +37,9 @@ const App = () => {
             path={["/creators/:name", "/tags/:name"]}
             component={CreatorOrTag}
           />
-          <Route
-            path="/auth"
-            exact
-            component={() => (!user ? <Auth /> : <Redirect to="/posts" />)}
-          />
-          <Route
-            path="/teacher/tsignin"
-            exact
-            component={() => (!user ? <Teacher /> : <Redirect to="/posts" />)}
-          />
-          <Route
-            path="/student/ssignin"
-            exact
-            component={() => (!user ? <Student /> : <Redirect to="/posts" />)}
-          />
+          <Route path="/auth" exact component={Auth} />
+          <Route path="/teacher/tsignin" exact component={Teacher} />
+          <Route path="/student/ssignin" exact component={Student} />
           <Route path="/admindash" component={AdminDashboard} exact />
           <Route path="/tadash" component={TaDashboard} exact />
           <Route path="/ta" component={TeacherDet} exact />

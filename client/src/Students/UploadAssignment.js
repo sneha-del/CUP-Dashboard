@@ -88,7 +88,7 @@ const UploadAssignment = () => {
             <input
               type="text"
               name="githublink"
-              className="form-controls"
+              className="form-control-file"
               value={assignment.githublink}
               onChange={handleInputs}
               placeholder="Enter Github URL"

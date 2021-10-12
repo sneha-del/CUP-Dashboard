@@ -22,6 +22,7 @@ export const assignment = async (req, res) => {
     console.log(err);
   }
 };
+
 export const getassignment = async (req, res) => {
   Assignment.find()
     .then((result) => {

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar/Sidebar";
 import axios from "axios";
+import { useHistory } from "react-router";
 const StudentDet = () => {
   const [studentData, setStudentData] = useState([]);
+  const history = useHistory();
   useEffect(() => {
     axios
       .get("http://localhost:5000/student/studentdetails")
@@ -11,6 +13,9 @@ const StudentDet = () => {
       .catch((error) => console.log(error));
     console.log(studentData);
   });
+  const handleClick = () => {
+    history.push("/student/ssignin");
+  };
   return (
     <>
       <div className="st-details-container">
@@ -28,8 +33,17 @@ const StudentDet = () => {
             {/* </div>
               );
             })} */}
+            <button
+              type="button"
+              onClick={() => {
+                history.push("/student/ssignin");
+              }}
+              class="btn btn-outline-warning"
+            >
+              Add Students
+            </button>
             <h1> Student Details</h1>
-            <table class="table  table-hover">
+            <table class="table  my-3 table-hover">
               <thead>
                 <tr>
                   <th scope="col">#</th>

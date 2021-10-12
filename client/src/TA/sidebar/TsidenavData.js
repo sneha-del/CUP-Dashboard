@@ -1,30 +1,37 @@
 import React from "react";
 // import { HomeFillIcon } from "@primer/styled-octicons";
+import {
+  FcHome,
+  FcBusinesswoman,
+  FcDocument,
+  FcEditImage,
+  FcCheckmark,
+} from "react-icons/fc";
 export const TsidenavData = [
   {
     title: "Home",
-
+    icon: <FcHome size="2em" />,
     link: "/tadash",
   },
 
   {
     title: "Students",
-    icon: <i class="material-icons">people</i>,
+    icon: <FcBusinesswoman size="2em" />,
     link: "/tst",
   },
   {
     title: "Assignment",
-    icon: <i class="material-icons">assignment</i>,
+    icon: <FcDocument size="2em" />,
     link: "/getposts",
   },
   {
     title: "Assignments From Students",
-    icon: <i class="material-icons">assignment</i>,
+    icon: <FcEditImage size="2em" />,
     link: "/getassignment",
   },
   {
     title: "View Reports",
-    icon: <i class="material-icons">beenhere</i>,
+    icon: <FcCheckmark size="2em" />,
     link: "/report_admin",
   },
 ];

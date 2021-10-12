@@ -1,29 +1,36 @@
 import React from "react";
 // import { HomeFillIcon } from "@primer/styled-octicons";
+import { FcHome } from "react-icons/fc";
+import {
+  FcConferenceCall,
+  FcBusinesswoman,
+  FcCheckmark,
+  FcDocument,
+} from "react-icons/fc";
 export const SidenavData = [
   {
     title: "Home",
-    // icon: <HomeFillIcon size={24} />,
+    icon: <FcHome size="2em" />,
     link: "/admindash",
   },
   {
     title: "Teaching Assistants",
-    icon: <i class="material-icons">nature_people</i>,
+    icon: <FcConferenceCall size="2em" />,
     link: "/ta",
   },
   {
     title: "Students",
-    icon: <i class="material-icons">people</i>,
+    icon: <FcBusinesswoman size="2em" />,
     link: "/st",
   },
   {
     title: "Assignment",
-    icon: <i class="material-icons">assignment</i>,
+    icon: <FcDocument size="2em" />,
     link: "/posts",
   },
   {
     title: "View Reports",
-    icon: <i class="material-icons">beenhere</i>,
+    icon: <FcCheckmark size="2em" />,
     link: "/report_admin",
   },
 ];

@@ -8,6 +8,7 @@ import userRouter from "./routes/user.js";
 
 import studentRouter from "./routes/student.js";
 import assignmentRouter from "./routes/assignmentAuth.js";
+import feedbackRouter from "./routes/feedback.js";
 // import { assigment } from "./controllers/uploadAssignment.js";
 const app = express();
 
@@ -20,6 +21,7 @@ app.use("/user", userRouter);
 app.use("/teacher", teacherRouter);
 app.use("/student", studentRouter);
 app.use("/ass", assignmentRouter);
+app.use("/feed", feedbackRouter);
 // app.use("/ass", assigment);
 const CONNECTION_URL =
   "mongodb+srv://sneha:sneha123@cluster0.1dw2w.mongodb.net/cup?retryWrites=true&w=majority";

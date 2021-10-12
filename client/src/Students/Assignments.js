@@ -21,10 +21,10 @@ const Assignments = () => {
                 <p>{pd.title}</p>
                 <p>Created by:{pd.name}</p>
                 <p>{pd.message}</p>
-                <img src={pd.selectedFile} height="250px" width="400px" />
+                <img src={pd.selectedFile} height="100px" width="100px" />
                 <a
                   href={pd.selectedFile}
-                  className="btn btn-primary"
+                  className="btn btn-success"
                   download="CUP Assignment"
                 >
                   Download Assignment

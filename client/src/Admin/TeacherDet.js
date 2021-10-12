@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar/Sidebar";
 import axios from "axios";
+import { useHistory } from "react-router-dom";
 const TeacherDet = () => {
   const [teacherData, setTeacherData] = useState([]);
+  const history = useHistory();
   useEffect(() => {
     axios
       .get("http://localhost:5000/teacher/teacherdata")
@@ -11,6 +13,9 @@ const TeacherDet = () => {
       .catch((error) => console.log(error));
     console.log(teacherData);
   });
+  const handleClick = () => {
+    history.push("/teacher/tsignin");
+  };
   return (
     <>
       <div className="ta-det">
@@ -30,7 +35,14 @@ const TeacherDet = () => {
               );
             })} */}
           <h1> Teacher Details</h1>
-          <table class="table  table-hover">
+          <button
+            type="button"
+            onClick={handleClick}
+            class="btn btn-outline-warning"
+          >
+            Add Teaching Assistants
+          </button>
+          <table class="table my-3 table-hover">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -48,7 +60,7 @@ const TeacherDet = () => {
                     {/* <button type="button" var class="btn btn-success">
                       DELETE
                     </button> */}
-                    <button className="del">DELETE</button>
+                    {/* <button className="del">DELETE</button> */}
                     {/* <td>@mdo</td> */}
                   </tr>
                 </tbody>

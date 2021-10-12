@@ -1,31 +1,29 @@
 import Feedback from "../models/feedback.js";
 export const sendFeedback = async (req, res) => {
-  const { name, title, githublink, hostedlink, videolink } = req.body;
+  const { title, feedbacks, result } = req.body;
 
   try {
-    if (!name || !title || !githublink || !hostedlink || !videolink) {
+    if (!title || !feedbacks || !result) {
       return res.status(422).json({ error: "Plz fill" });
     } else {
-      const assigment = new Assignment({
-        name,
+      const feedback = new Feedback({
         title,
-        githublink,
-        hostedlink,
-        videolink,
+        feedbacks,
+        result,
       });
 
-      await assigment.save();
-      res.status(201).json({ message: "Assignment Submitted sucessfully !" });
+      await feedback.save();
+      res.status(201).json({ message: "Evaluated sucessfully !" });
     }
   } catch (err) {
     console.log(err);
   }
 };
-export const getassignment = async (req, res) => {
-  Assignment.find()
+export const getfeedback = async (req, res) => {
+  Feedback.find()
     .then((result) => {
       res.status(200).json({
-        assignmentData: result,
+        feedbackData: result,
       });
     })
     .catch((err) => {

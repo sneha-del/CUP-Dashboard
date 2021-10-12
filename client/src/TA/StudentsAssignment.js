@@ -30,21 +30,28 @@ const StudentsAssignment = () => {
                   </h6>
                   <div className="one">
                     <p>Github Link :</p>
-                    <a href="#" target="_blank" className="card-link">
+                    <a
+                      href={ta.githublink}
+                      target="_blank"
+                      className="card-link"
+                    >
                       {ta.githublink}
                     </a>
                   </div>
                   <div className="two">
                     <p>Hosted Link :</p>
-                    <a href="#" className="card-link">
+                    <a href={ta.hostedlink} className="card-link">
                       {ta.hostedlink}
                     </a>
                   </div>
                   <div className="three">
                     <p>Video Link :</p>
-                    <a href="#" className="card-link">
+                    <a href={ta.videolink} className="card-link">
                       {ta.videolink}
                     </a>
+                  </div>
+                  <div className="input2">
+                    <input type="text" />
                   </div>
                 </div>
               </div>
