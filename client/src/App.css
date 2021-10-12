@@ -1,0 +1,95 @@
+.sidebar {
+  border-radius: 20px;
+  height: 75vh;
+  width: 300px;
+  background-color: #52b69a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Tsidebar {
+  border-radius: 20px;
+  height: 100vh;
+  width: 300px;
+  background-color: #52b69a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  /* margin-top: -228px; */
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+}
+.ta-details-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+}
+.st-details-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+}
+.div3 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+}
+.div4 {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: -228px;
+}
+.assigment-det {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+}
+.div5 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+  /* background-color: blanchedalmond; */
+}
+/* .div6 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+  background-color: blanchedalmond;
+} */
+.student-assignments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+}
+.div7 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div8 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+  /* background-color: blanchedalmond; */
+}
+.ta-det {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px;
+}
+.div9 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div10 {
+  grid-area: 1 / 2 / 2 / 2;
+  margin-left: -45%;
+  /* background-color: blanchedalmond; */
+}
