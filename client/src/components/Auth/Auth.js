@@ -59,7 +59,7 @@ const SignUp = () => {
     try {
       dispatch({ type: AUTH, data: { result, token } });
 
-      history.push("/posts");
+      history.push("/admindash");
     } catch (error) {
       console.log(error);
     }

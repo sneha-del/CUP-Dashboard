@@ -19,18 +19,19 @@ const StudentsAssignment = () => {
           <TSidebar />
         </div>
         <div className="div8">
-          <h3>Assignments Submitted</h3>
+          <h1 style={{ color: "white" }}>Assignments Submitted</h1>
           {assignmentData.map((ta, key) => {
             return (
-              <div className="card" key={key}>
+              <div className="cards" key={key}>
                 <div className="card-body">
-                  <h5 className="card-title">{ta.title}</h5>
+                  <h5 className="card-titles">{ta.title}</h5>
                   <h6 className="card-subtitle mb-2 text-muted">
                     By: {ta.name}
                   </h6>
                   <div className="one">
                     <p>Github Link :</p>
                     <a
+                      style={{ padding: "2px" }}
                       href={ta.githublink}
                       target="_blank"
                       className="card-link"
@@ -49,9 +50,6 @@ const StudentsAssignment = () => {
                     <a href={ta.videolink} className="card-link">
                       {ta.videolink}
                     </a>
-                  </div>
-                  <div className="input2">
-                    <input type="text" />
                   </div>
                 </div>
               </div>

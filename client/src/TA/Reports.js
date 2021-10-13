@@ -19,7 +19,7 @@ const Reports = () => {
         <div className="div14">
           <TSidebar />
         </div>
-        <div className="div15">
+        <div className="div17">
           <h1 style={{ color: "white" }}>Reports of the Students</h1>
           <table class="table table-dark table-hover">
             <thead>

@@ -113,7 +113,30 @@
 .div8 {
   grid-area: 1 / 2 / 2 / 2;
   margin-left: -45%;
+
   /* background-color: blanchedalmond; */
+}
+.cards {
+  background-color: #e5dada;
+  width: 600px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+.card-titles {
+  font-size: xx-large;
+}
+.one {
+  display: flex;
+  margin: 10px;
+}
+.two {
+  display: flex;
+  margin: 10px;
+}
+.three {
+  display: flex;
+  margin: 10px;
 }
 .ta-det {
   display: grid;
@@ -244,7 +267,7 @@
 .div15 {
   grid-area: 1 / 2 / 2 / 2;
   margin-left: -25%;
-  margin-top: -100%;
+  margin-top: -50%;
 }
 .img-background {
   margin-top: -50%;

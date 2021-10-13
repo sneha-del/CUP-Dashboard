@@ -9,7 +9,7 @@ const AssignmentDet = () => {
       // console.log(teacherData);
       .then((res) => setData(res.data.data))
       .catch((error) => console.log(error));
-    // console.log(data);
+    console.log(data);
   }, [data]);
   return (
     <div className="assigment-det">
