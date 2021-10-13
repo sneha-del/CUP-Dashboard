@@ -6,6 +6,7 @@ import {
   FcDocument,
   FcEditImage,
   FcCheckmark,
+  FcReading,
 } from "react-icons/fc";
 export const TsidenavData = [
   {
@@ -30,8 +31,13 @@ export const TsidenavData = [
     link: "/getassignment",
   },
   {
+    title: "Evaluate Assignments",
+    icon: <FcReading size="2em" />,
+    link: "/eval",
+  },
+  {
     title: "View Reports",
     icon: <FcCheckmark size="2em" />,
-    link: "/report_admin",
+    link: "/report_ta",
   },
 ];

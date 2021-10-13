@@ -20,6 +20,9 @@ import StudentDash from "./Students/StudentDash";
 import STeacherDet from "./Students/STeacherDet";
 import AssignmentDet from "./TA/AssignmentDet";
 import StudentsAssignment from "./TA/StudentsAssignment";
+import Evaluate from "./TA/Evaluate";
+import Reports from "./TA/Reports";
+import Report from "./Admin/Report";
 const App = () => {
   const user = JSON.parse(localStorage.getItem("profile"));
 
@@ -49,6 +52,9 @@ const App = () => {
           {/* <Route path="/studentdash" component={STeacherDet} exact /> */}
           <Route path="/getposts" component={AssignmentDet} exact />
           <Route path="/getassignment" component={StudentsAssignment} exact />
+          <Route path="/eval" component={Evaluate} exact />
+          <Route path="/report_ta" component={Reports} exact />
+          <Route path="/report_admin" component={Report} exact />
         </Switch>
       </Container>
     </BrowserRouter>

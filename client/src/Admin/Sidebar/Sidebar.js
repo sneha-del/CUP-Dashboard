@@ -8,7 +8,6 @@ const Sidebar = () => {
   return (
     <>
       <div className="sidebar">
-        admin
         <ul>
           {SidenavData.map((val, key) => {
             return (

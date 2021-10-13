@@ -2,7 +2,7 @@ import React from "react";
 import Assignments from "./Assignments";
 import STeacherDet from "./STeacherDet";
 import UploadAssignment from "./UploadAssignment";
-
+import Reports from "./Reports";
 const StudentDash = () => {
   return (
     <>
@@ -16,6 +16,9 @@ const StudentDash = () => {
       </div>
       <div>
         <UploadAssignment />
+      </div>
+      <div>
+        <Reports />
       </div>
     </>
   );

@@ -19,12 +19,12 @@ const AssignmentDet = () => {
       <div className="div5">
         {data.map((pd, key) => {
           return (
-            <div key={key} className="assignment-det">
+            <div key={key} className="assignment-dets">
               <p>{pd.title}</p>
               <p>Created by:{pd.name}</p>
               <p>{pd.message}</p>
               {/* <img src={pd.selectedFile} height="400px" width="600px" /> */}
-              <img src={pd.selectedFile} height="200px" width="600px" />
+              <img src={pd.selectedFile} height="100px" width="100px" />
               <a
                 href={pd.selectedFile}
                 className="btn btn-primary"

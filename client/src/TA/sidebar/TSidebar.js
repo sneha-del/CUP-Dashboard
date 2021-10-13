@@ -8,8 +8,7 @@ const TSidebar = () => {
   return (
     <>
       <div className="Tsidebar">
-        admin
-        <ul>
+        <ul className="ul">
           {TsidenavData.map((val, key) => {
             return (
               <li
