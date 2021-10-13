@@ -20,11 +20,11 @@ const Reports = () => {
           <TSidebar />
         </div>
         <div className="div15">
-          <h1>Reports of the Students</h1>
+          <h1 style={{ color: "white" }}>Reports of the Students</h1>
           <table class="table table-dark table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">S.No</th>
                 <th scope="col">Name</th>
                 <th scope="col">Assignment</th>
                 <th scope="col">Feedbacks</th>
@@ -35,7 +35,7 @@ const Reports = () => {
               return (
                 <tbody key={key}>
                   <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">{key + 1}</th>
                     <td>{ta.name}</td>
                     <td>{ta.title}</td>
                     <td>{ta.feedbacks}</td>

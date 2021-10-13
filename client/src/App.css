@@ -243,5 +243,15 @@
 }
 .div15 {
   grid-area: 1 / 2 / 2 / 2;
-  margin-left: -45%;
+  margin-left: -25%;
+  margin-top: -100%;
+}
+.img-background {
+  margin-top: -50%;
+  margin-left: 41%;
+}
+.textss {
+  text-align: center;
+  color: white;
+  margin-top: -140px;
 }

@@ -78,7 +78,7 @@ const Post = ({ post, setCurrentId }) => {
         component="span"
         name="test"
         className={classes.cardAction}
-        onClick={openPost}
+        // onClick={openPost}
       >
         <CardMedia
           className={classes.media}

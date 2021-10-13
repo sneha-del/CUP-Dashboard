@@ -45,7 +45,7 @@ const TeacherDet = () => {
           <table class="table my-3 table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col">S.No</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
               </tr>
@@ -54,7 +54,7 @@ const TeacherDet = () => {
               return (
                 <tbody key={key}>
                   <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">{key + 1}</th>
                     <td>{ta.name}</td>
                     <td>{ta.email}</td>
                     {/* <button type="button" var class="btn btn-success">

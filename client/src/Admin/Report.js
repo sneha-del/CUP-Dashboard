@@ -20,7 +20,7 @@ const Report = () => {
         <div className="div14">
           <Sidebar />
         </div>
-        <div className="div15">
+        <div className="div">
           <h1>Reports of the Students</h1>
           <table class="table table-dark table-hover">
             <thead>

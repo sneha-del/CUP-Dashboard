@@ -28,11 +28,11 @@ const STeacherDet = () => {
             {/* </div>
               );
             })} */}
-            <h1>Teacher Details</h1>
+            <h1 style={{ color: "white" }}>Teacher Details</h1>
             <table class="table  table-hover">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
+                  <th scope="col">S.No</th>
                   <th scope="col">Name</th>
                   <th scope="col">Email</th>
                 </tr>
@@ -41,7 +41,7 @@ const STeacherDet = () => {
                 return (
                   <tbody key={key}>
                     <tr>
-                      <th scope="row">1</th>
+                      <th scope="row">{key + 1}</th>
                       <td>{ta.name}</td>
                       <td>{ta.email}</td>
                       {/* <td>@mdo</td> */}

@@ -15,10 +15,10 @@ const StudentDash = () => {
         <Assignments />
       </div>
       <div>
-        <UploadAssignment />
+        <Reports />
       </div>
       <div>
-        <Reports />
+        <UploadAssignment />
       </div>
     </>
   );
