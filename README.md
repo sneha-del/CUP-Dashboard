@@ -37,5 +37,6 @@
 <li>They can upload the assignments in the Form of links.</li>
 <li>Can view the assigned assignments and also can download the pdf/doc.</li>
 </ul>
-
+## Deployed Link
+https://cupdashboard.herokuapp.com/
 
