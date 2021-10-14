@@ -3,8 +3,19 @@
 <p>Admin</p>
 <p>Teaching Assistants</p>
 <p>Students</p>
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/homepage.png?raw=true)
+
 <h3>Features</h3>
+
+![ScreenShot 1](https://github.com/sneha-del/CUP-Dashboard/blob/master/homepage.png?raw=true)
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/assignment_admin.png?raw=true)
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/ta_admin.png?raw=true)
+# Teaching Assistants
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/reports.png?raw=true)
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/eval.png?raw=true)
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/ta_signup.png?raw=true)
+# Students
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/student_dash.png?raw=true)
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/upload.png?raw=true)
 
 <h4>Admin</h4>
 <ul>
@@ -13,10 +24,6 @@
 <li>Admin can view the evaluated Reports of the students.</li>
 <li>Admin can create Assignments.</li>
   </ul>
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/homepage_admin.png?raw=true)
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/assignment_admin.png?raw=true)
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/ta_admin.png?raw=true)
-
 <h4>Teaching Assistants</h4>
 <ul>
 <li>Teaching Assistants can View their students.</li>
@@ -24,15 +31,11 @@
 <li>They can view the Assignment solutions by students on their dashboard.</li>
 <li>They can give Feedbacks/Remarks for the assignments done by the students.</li>
 </ul>
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/ta_signup.png?raw=true)
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/reports.png?raw=true)
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/eval.png?raw=true)
-
 <h4>Students</h4>
 <ul>
 <li>Students can view assigned TA in the form of tables.</li>
 <li>They can upload the assignments in the Form of links.</li>
 <li>Can view the assigned assignments and also can download the pdf/doc.</li>
 </ul>
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/student_dash.png?raw=true)
-![](https://github.com/sneha-del/CUP-Dashboard/blob/master/upload.png?raw=true)
+
+
