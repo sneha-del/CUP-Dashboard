@@ -4,7 +4,7 @@
 <p>Teaching Assistants</p>
 <p>Students</p>
 
-
+![](https://github.com/sneha-del/CUP-Dashboard/blob/master/homepage.png?raw=true)
 <h3>Features</h3>
 <ul>
 <h4>Admin</h4>
