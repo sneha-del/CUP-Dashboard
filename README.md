@@ -3,7 +3,7 @@
 <p>Admin</p>
 <p>Teaching Assistants</p>
 <p>Students</p>
-![homepage](https://user-images.githubusercontent.com/72269836/137339397-3844cd05-0adc-468c-b913-c43f26eda83d.png)
+
 
 <h3>Features</h3>
 <ul>
